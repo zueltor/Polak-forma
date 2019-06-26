@@ -97,7 +97,7 @@ int value_polak(char *res) {
 
 int main(void) {
 
-    char s[] = "a+(f-b*c/(z-x)+y)/(a*r-k)"; // либо с цифирками, не переменными
+    char s[] = "a+(f-b*c/(z-x)+y)/(a*r-k)"; // либо с цифирками, не переменными, тогда поменять 46 строчку
     char res[100] = {0};
     into_polak(s, res);
 
